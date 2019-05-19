@@ -11,17 +11,19 @@ Here are a list of all the required and optional environment variables the Manag
 
 ### Required Variables
 
+Run the API locally [download the API](https://github.com/mdunham/python-web-api)
+
 `REACT_APP_APP_ROOT`: The root location where you will be running the app
 * e.g. `http://localhost:3000`
 
 `REACT_APP_LOGIN_ROOT`: The root location where users will authenticate
-* e.g. `https://login.linode.com`
+* e.g. `https://localhost:9000`
 
 `REACT_APP_API_ROOT`: The root location where API requests will be made
-* e.g. `https://api.linode.com/v4`
+* e.g. `https://localhost:9000/v4`
 
 `REACT_APP_LIST_ROOT`: The root location of LISH, Linode's web-based console
-* e.g. `webconsole.linode.com`
+* e.g. `webconsole.localhost:9000`
 
 `REACT_APP_CLIENT_ID`: The Client ID you created above in the first step
 
@@ -69,11 +71,3 @@ alternatively, with Docker
 `yarn && yarn docker:local`
 
 At this point, the app should load on `localhost:3000` and you should be prompted to login and then can start browsing the app.
-
-
-## License
-
-The Linode Manager's code is distributed under the terms of the [BSD 3-clause
-license](LICENSE). The assets are
-not licensed for any purpose without prior written approval from Linode, unless
-otherwise noted.
