@@ -220,7 +220,7 @@
     "postcss-flexbugs-fixes": "^4.1.0",
     "postcss-loader": "^3.0.0",
     "prettier": "1.16.1",
-    "react-dev-utils": "^7.0.3",
+    "react-dev-utils": "^11.0.4",
     "react-hooks-testing-library": "^0.3.8",
     "react-testing-library": "^7.0.0",
     "reselect-tools": "^0.0.7",
